@@ -14,7 +14,6 @@ export default defineConfig({
     lineNumbers: true
   },
   themeConfig: {
-    logo: '/logo.svg',
     nav: [
       { text: '首页', link: '/' },
       { text: '学习路线', link: '/guide/learning-path' },
@@ -41,9 +40,7 @@ export default defineConfig({
         text: '第一篇：业务全景',
         collapsed: false,
         items: [
-          { text: '01｜ChinaDivision 业务全景', link: '/business/chinadivision-business-model' },
-          { text: '02｜全球订单履约与供应链基础', link: '/business/fulfillment-supply-chain' },
-          { text: '03｜从询盘到复购的客户生命周期', link: '/business/customer-lifecycle' }
+          { text: '01｜ChinaDivision 业务全景', link: '/business/chinadivision-business-model' }
         ]
       },
       {
@@ -66,20 +63,12 @@ export default defineConfig({
         ]
       },
       {
-        text: '第四篇：个人项目映射',
+        text: '第四篇：项目映射与面试',
         collapsed: false,
         items: [
-          { text: '11｜你的经历如何匹配 JD', link: '/resume/project-mapping' },
-          { text: '12｜客擎 CRM 项目讲法', link: '/resume/keqing-crm' },
-          { text: '13｜昆易 CRM 项目讲法', link: '/resume/kunyi-crm' }
-        ]
-      },
-      {
-        text: '第五篇：面试实战',
-        collapsed: false,
-        items: [
+          { text: '11｜经历如何匹配 JD', link: '/resume/project-mapping' },
           { text: '14｜高频面试题总览', link: '/interview/questions' },
-          { text: '15｜CEO/产品/销售视角追问', link: '/interview/role-based-questions' },
+          { text: '15｜角色视角追问', link: '/interview/role-based-questions' },
           { text: '16｜业务沙盘推演', link: '/interview/business-simulation' }
         ]
       }
